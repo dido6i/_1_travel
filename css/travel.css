@@ -1,0 +1,76 @@
+body {
+	font-family: Times New Roman, Times, serif;
+	font-size: 1.2em;
+	line-height: 140%;
+	background-image: url(../images/bg-site.jpg);
+	background-repeat: repeat-x;
+}
+
+#container {
+	width: 600px;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+#container #content strong {
+	color: #FF4500;
+}
+
+#mainHeader {
+	text-align: center;
+}
+
+#mainHeader h1 {
+	font-size: 2.2em;
+}
+
+#mainNav {
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	margin-bottom: 30px;
+	background-image: url(../images/bg-menu.gif);	
+	background-repeat: repeat-x;
+	background-position: left bottom;
+}
+
+#mainNav a {
+	padding: 25px;
+	text-decoration:none;
+	font-size-adjust: 1.6em;
+	color: #4A8417;
+}
+
+#mainNav a:hover {
+	color: #630;
+}
+
+img {
+	width: 600px;
+	height: 500px;
+	border-radius: 4px;
+	box-shadow: 3px 3px 6px #000;
+}
+
+#mainNav, #mainFooter {
+	text-shadow: 3px 3px 6px #000;
+} 
+
+#mainFooter {
+	text-align: center;
+
+}
+#mainFooter div {
+	background-color: #98FB98;
+	color: #630;
+	background-position: left bottom;
+}
+
+#mainFooter li a:hover {
+	color: #FF4500;
+}
+
+.current {
+	font-family: Georgia, serif;
+}
